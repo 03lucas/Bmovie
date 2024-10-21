@@ -9,29 +9,29 @@ Database: PostgreSQL
 Testar API: Postman
 
 # Landing Page
-![alt text](https://github.com/03lucas/Bmovie/tree/main/showcases/LP.png?raw=true)
+![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/LP.png?raw=true)
 
 <br><br>
 
 # Página de Avaliação
-![alt text](https://github.com/03lucas/Bmovie/tree/main/showcases/SP.png?raw=true)
+![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/SP.png?raw=true)
 
 <br><br>
 
 # Base de dados H2
-![alt text](https://github.com/03lucas/Bmovie/tree/main/showcases/H2DB.png?raw=true)
+![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/H2DB.png?raw=true)
 
 <br><br>
 
 # GET All Movies
-![alt text](https://github.com/03lucas/Bmovie/tree/main/showcases/GETmovieALL.png?raw=true)
+![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/GETmovieALL.png?raw=true)
 
 <br>
 
 # GET Movie by ID
-![alt text](https://github.com/03lucas/Bmovie/tree/main/showcases/GETmovieID.png?raw=true)
+![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/GETmovieID.png?raw=true)
 
 <br>
 
 # PUT Postman
-![alt text](https://github.com/03lucas/Bmovie/tree/main/showcases/PUTscore.png?raw=true)
+![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/PUTscore.png?raw=true)
