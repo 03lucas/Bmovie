@@ -33,5 +33,5 @@ Testar API: Postman
 
 <br>
 
-# PUT Postman
+# PUT Score
 ![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/PUTscore.png?raw=true)
