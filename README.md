@@ -1,37 +1,61 @@
 # Bmovie
 
-Site para avaliações de filmes que utiliza React e Spring em sua construção.
+Bmovie is a full-stack movie rating and review application
 
-# Tech Stack
-Frontend: React.js
-Backend: Spring Boot com API REST (Java 21)
-Database: PostgreSQL
-Testar API: Postman
+## Tech Stack
 
-# Landing Page
-![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/LP.png?raw=true)
+The project architecture is divided into a REST API and a responsive web client
 
-<br><br>
+### Frontend
+* **React.js with TypeScript**
+* **React Router Dom** for frontend routing, separating the main catalog from individual movie rating pages
+* **Axios** HTTP client used to consume the backend API
+* **Bootstrap** CSS framework to ensure a responsive interface across different devices
 
-# Página de Avaliação
-![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/SP.png?raw=true)
+### Backend
+* **Java 21 & Spring Boot (3.3.4)** framework for rapid API setup and configuration
+* **Spring Data JPA** used for ORM, streamlining complex queries and data persistence
+* **Spring Security** for CORS configuration and route protection
+* **Lombok** to reduce boilerplate (getters, setters, constructors)
 
-<br><br>
+### Databases
+* **H2 Database** to optimize testing
+* **PostgreSQL:** DB for prod data
 
-# Base de dados H2
-![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/H2DB.png?raw=true)
+## Endpoints
 
-<br><br>
+* `GET /movies`
+  * Returns a paginated list of all available movies in the catalog.
+* `GET /movies/{id}`
+  * Returns specific details for a movie based on its identifier.
+* `PUT /scores`
+  * Registers or updates a user's rating (identified by email) for a specific movie.
 
-# GET All Movies
-![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/GETmovieALL.png?raw=true)
+## How to Run Locally
 
-<br>
+### Prerequisites
+* Node.js and npm/yarn installed
+* Java 21 (JDK) installed
+* Maven
 
-# GET Movie by ID
-![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/GETmovieID.png?raw=true)
+### Backend
+1. Install dependencies and start app: `./mvnw spring-boot:run`
+2. API available at `http://localhost:8080`
 
-<br>
+### Frontend
+1. Install project dependencies: `npm install`
+2. `npm start`
+3. APP at `http://localhost:3000`
 
-# PUT Score
-![alt text](https://github.com/03lucas/Bmovie/blob/main/showcases/PUTscore.png?raw=true)
+## Screenshots
+
+<details>
+  <summary><b>UI Images</b></summary><br>
+
+  **Landing Page (Catalog)**
+  ![Landing Page](https://github.com/03lucas/Bmovie/blob/main/showcases/LP.png?raw=true)
+
+  **Rating Page**
+  ![Rating Page](https://github.com/03lucas/Bmovie/blob/main/showcases/SP.png?raw=true)
+
+</details>
